@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Panda.App.Models.Package;
 using Panda.Data;
@@ -19,8 +20,9 @@ namespace Panda.App.Controllers
             this.context = context;
             this.userManager = userManager;
         }
-
+        
         [HttpGet]
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             var bindingModel = new PackageCreateBindingModel();
@@ -30,6 +32,7 @@ namespace Panda.App.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create(PackageCreateBindingModel bindingModel)
         {
             return this.View();
