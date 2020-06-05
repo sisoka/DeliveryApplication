@@ -1,0 +1,11 @@
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\bin\Debug\netstandard2.1\Panda.Data.deps.json
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\bin\Debug\netstandard2.1\Panda.Data.dll
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\obj\Debug\netstandard2.1\Panda.Data.csprojAssemblyReference.cache
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\obj\Debug\netstandard2.1\Panda.Data.AssemblyInfoInputs.cache
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\obj\Debug\netstandard2.1\Panda.Data.AssemblyInfo.cs
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\bin\Debug\netstandard2.1\Panda.Data.pdb
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\bin\Debug\netstandard2.1\Panda.Domain.dll
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\bin\Debug\netstandard2.1\Panda.Domain.pdb
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\obj\Debug\netstandard2.1\Panda.Data.csproj.CopyComplete
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\obj\Debug\netstandard2.1\Panda.Data.dll
+C:\Users\sisko\source\repos\Panda.App\Panda.Data\obj\Debug\netstandard2.1\Panda.Data.pdb

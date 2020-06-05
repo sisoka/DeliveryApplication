@@ -1,0 +1,8 @@
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\bin\Debug\netstandard2.1\Panda.Domain.deps.json
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\bin\Debug\netstandard2.1\Panda.Domain.dll
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.1\Panda.Domain.AssemblyInfoInputs.cache
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.1\Panda.Domain.AssemblyInfo.cs
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\bin\Debug\netstandard2.1\Panda.Domain.pdb
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.1\Panda.Domain.dll
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.1\Panda.Domain.pdb
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.1\Panda.Domain.csprojAssemblyReference.cache

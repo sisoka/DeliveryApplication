@@ -1,0 +1,58 @@
+﻿@model Panda.App.Models.Package.PackageCreateBindingModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center">Create</h1>
+<hr class="bg-panda w-50 hr-2" />
+<form class="mx-auto w-50" method="post">
+    <div class="form-group">
+        <label asp-for="Description" class="text-torshia">Description</label>
+        <input type="text"
+               class="form-control"
+               id="description"
+               placeholder="Description..."
+               asp-for="Description">
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="weight-and-address-holder d-flex justify-content-between">
+        <div class="form-group w-50 pr-5">
+            <label for="Weight" class="text-torshia">Weight</label>
+            <input type="number"
+                   class="form-control"
+                   id="weight"
+                   placeholder="Weight..."
+                   asp-for="Weight">
+            <span asp-validation-for="Weight" class="text-danger"></span>
+        </div>
+        <div class="form-group w-50 pl-5">
+            <label asp-for="ShippingAddress" class="text-torshia">Shipping Address</label>
+            <input type="text"
+                   class="form-control"
+                   id="shippingAddress"
+                   placeholder="Shipping Address..."
+                   asp-for="ShippingAddress">
+            <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+        </div>
+    </div>
+    <hr class="hr-2 bg-panda"/>
+    <div class="form-group w-50 mx-auto">
+        <div class="text-center">
+            <label asp-for="Recipient" class="text-torshia">Recipient</label>
+        </div>
+        <select class="custom-select" id="recipient" asp-for="Recipient">
+            <option selected disabled>--Choose Recipient--</option>
+            @foreach (var recipient in Model.Recipients)
+            {
+                <option value="@recipient.UserName">@recipient.UserName</option>
+            }
+        </select>
+    </div>
+    <hr class="hr-2 bg-panda"/>
+    <div class="button-holder d-flex justify-content-center">
+        <button type="submit" class="btn bg-panda text-white">Create</button>
+    </div>
+</form>
+

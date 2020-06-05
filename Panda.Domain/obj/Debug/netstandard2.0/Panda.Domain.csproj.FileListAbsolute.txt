@@ -1,0 +1,4 @@
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\bin\Debug\netstandard2.0\Panda.Domain.deps.json
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\bin\Debug\netstandard2.0\Panda.Domain.dll
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.0\Panda.Domain.AssemblyInfoInputs.cache
+C:\Users\sisko\source\repos\Panda.App\Panda.Domain\obj\Debug\netstandard2.0\Panda.Domain.AssemblyInfo.cs
